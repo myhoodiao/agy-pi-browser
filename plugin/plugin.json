@@ -1,0 +1,13 @@
+{
+  "name": "agy-pi-browser",
+  "displayName": "Agy Pi 浏览器执行器（Terra + Playwright）",
+  "description": "将 agy 对齐后的 Browser Use 任务派发给常驻 Pi RPC Agent（openai-codex/gpt-6.1-terra + Playwright MCP --extension），支持跨轮保活不丢页面、拖入标签组接管人类已打开页面与超时进展回收。",
+  "version": "2.0.0",
+  "author": "myhoodiao",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "帮我用浏览器打开 Gmail，检查最近一封未读邮件并汇报摘要",
+    "接管我 Chrome 里已经打开的页面，核对完表单后告诉我再提交",
+    "继续刚才暂停的浏览器任务"
+  ]
+}
